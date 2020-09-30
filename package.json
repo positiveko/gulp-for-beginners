@@ -1,0 +1,47 @@
+{
+  "name": "gulp-for-beginners",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "description": "Learn gulp for beginners",
+  "author": "Positive Ko",
+  "scripts": {
+    "dev": "gulp dev",
+    "build": "gulp build",
+    "deploy": "gulp deploy"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/register": "^7.11.5",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-image": "^6.2.1",
+    "gulp-pug": "^4.0.1",
+    "gulp-webserver": "^0.9.1"
+  },
+  "dependencies": {
+    "babelify": "^10.0.0",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-bro": "^2.0.0",
+    "gulp-csso": "^4.0.1",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-sass": "^4.1.0",
+    "node-sass": "^4.14.1",
+    "uglifyify": "^5.0.2"
+  },
+  "browserslist": [
+    "> 1%",
+    "ie >= 8",
+    "edge >= 15",
+    "ie_mob >= 10",
+    "ff >= 45",
+    "chrome >= 45",
+    "safari >= 7",
+    "opera >= 23",
+    "ios >= 7",
+    "android >= 4",
+    "bb >= 10"
+  ],
+  "repository": "https://github.com/positiveko/gulp-for-beginners.git"
+}
